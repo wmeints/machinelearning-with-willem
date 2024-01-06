@@ -1,0 +1,67 @@
+This repository contains all the parts to my series "Machine Learning with Willem".
+Consider this repository a self-paced workshop where we explore machine-learning in any order you like.
+
+== Goal for this repository
+
+- Teach you various machine learning projects
+- Have fun while writing down some of my practices
+- Provide an open source knowledge base on how to build machine-learning projects
+
+== System requirements
+
+All the samples run on WSL2. I've tried various scenarios over the years to get things working on Windows.
+It just doesn't work that well on Windows when compared to how smooth things work on WSL2 and plain Linux.
+
+Please make sure you have the following tools on your machine when exploring the topics in this repository:
+
+1. Visual Studio Code or some other editor with language server support
+2. Python 3.12 or higher
+3. 16 GB of Memory and a decent CPU
+4. WSL2 with Ubuntu 22.04
+
+For the deep learning topics I recommend a good graphics card that supports [Cuda](https://developer.nvidia.com/cuda-toolkit) with 8 GB of memory.
+
+== Getting started
+
+Before you dive into the different topics, please make sure you've followed the basic tutorials!
+I've created the following tutorials to help you get started:
+
+1. Installing WSL2 on Windows 11
+2. Installing Python 3.12 on Ubuntu 22.04
+3. Setting up a basic Python project with Poetry and virtualenv
+
+After completing the tutorials you know enough of the basics to explore all the other topics in this repository.
+
+== Structure of this repository
+
+I've split the repository in the following parts:
+
+1. MLOps
+2. Supervised learning
+3. Unsupervised learning
+4. Time-series processing
+5. Deep learning
+6. Generative AI applications
+7. Fairness, and safety
+8. Interpretability and explainability
+
+Some sections will be split into subsections as I see fit. These are pretty big topics, and I think it makes sense to
+split them into useful subsections that you can explore separately. There's no predefined order of importance in the
+topics. For me, they're all the same.
+
+At some point I'll reorganize the repository so the order makes more sense. Since it's all incomplete, I'm not going to
+bother myself ordering things that don't have an order yet.
+
+== Frequently asked questions
+
+**Q:** How often will you provide updates?  
+**A:** Once per week, on Saturday usually
+
+**Q:** Is there an order in which I should go through the topics?
+**A:** Not really, consider this a practical reference to things I've learned over the years
+
+**Q:** I'm missing a topic, can I propose one?
+**A:** Yes, you can. Please submit an issue
+
+**Q:** Do you have samples?
+**A:** Each of the topics contains a sample. It simply wouldn't be fun without.
